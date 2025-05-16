@@ -1,8 +1,17 @@
 from typing import List
 
+
 def longest_consecutive(nums: List[int]) -> int:
-    # Здесь будет ваше решение
-    return 0
+    nums = set(nums)
+    best = 0
+    for x in nums:
+        if x - 1 not in nums:
+            y = x + 1
+            while y in nums:
+                y += 1
+            best = max(best, y - x)
+    return best
+
 
 def main():
     # Тестовые примеры
@@ -10,23 +19,15 @@ def main():
         {
             "nums": [100, 4, 200, 1, 3, 2],
             "expected": 4,
-            "name": "Example 1: nums = [100,4,200,1,3,2]"
+            "name": "Example 1: nums = [100,4,200,1,3,2]",
         },
         {
             "nums": [0, 3, 7, 2, 5, 8, 4, 6, 0, 1],
             "expected": 9,
-            "name": "Example 2: nums = [0,3,7,2,5,8,4,6,0,1]"
+            "name": "Example 2: nums = [0,3,7,2,5,8,4,6,0,1]",
         },
-        {
-            "nums": [],
-            "expected": 0,
-            "name": "Example 3: пустой массив"
-        },
-        {
-            "nums": [1],
-            "expected": 1,
-            "name": "Example 4: один элемент"
-        }
+        {"nums": [], "expected": 0, "name": "Example 3: пустой массив"},
+        {"nums": [1], "expected": 1, "name": "Example 4: один элемент"},
     ]
 
     # Запуск всех тестов
@@ -39,5 +40,6 @@ def main():
         print(f"  Expected: {tc['expected']}")
         print(f"  Got: {result}\n")
 
+
 if __name__ == "__main__":
-    main() 
+    main()

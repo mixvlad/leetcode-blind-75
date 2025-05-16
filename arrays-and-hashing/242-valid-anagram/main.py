@@ -1,6 +1,16 @@
 def is_anagram(s: str, t: str) -> bool:
-    # Здесь будет ваше решение
-    return False
+    if len(s) != len(t):
+        return False
+    s1 = {}
+    s2 = {}
+    for x in s:
+        s1[x] = 1 if x not in s1 else s1[x] + 1
+
+    for x in t:
+        s2[x] = 1 if x not in s2 else s2[x] + 1
+
+    return s1 == s2
+
 
 def main():
     # Тестовые примеры
@@ -9,26 +19,21 @@ def main():
             "s": "anagram",
             "t": "nagaram",
             "expected": True,
-            "name": "Example 1: s = 'anagram', t = 'nagaram'"
+            "name": "Example 1: s = 'anagram', t = 'nagaram'",
         },
         {
             "s": "rat",
             "t": "car",
             "expected": False,
-            "name": "Example 2: s = 'rat', t = 'car'"
+            "name": "Example 2: s = 'rat', t = 'car'",
         },
-        {
-            "s": "",
-            "t": "",
-            "expected": True,
-            "name": "Example 3: пустые строки"
-        },
+        {"s": "", "t": "", "expected": True, "name": "Example 3: пустые строки"},
         {
             "s": "hello",
             "t": "world",
             "expected": False,
-            "name": "Example 4: разные слова"
-        }
+            "name": "Example 4: разные слова",
+        },
     ]
 
     # Запуск всех тестов
@@ -41,5 +46,6 @@ def main():
         print(f"  Expected: {tc['expected']}")
         print(f"  Got: {result}\n")
 
+
 if __name__ == "__main__":
-    main() 
+    main()

@@ -1,8 +1,10 @@
+from collections import Counter
 from typing import List
 
+
 def top_k_frequent(nums: List[int], k: int) -> List[int]:
-    # Здесь будет ваше решение
-    return []
+    return [x for x, _ in Counter(nums).most_common(k)]
+
 
 def main():
     # Тестовые примеры
@@ -11,20 +13,15 @@ def main():
             "nums": [1, 1, 1, 2, 2, 3],
             "k": 2,
             "expected": [1, 2],
-            "name": "Example 1: nums = [1,1,1,2,2,3], k = 2"
+            "name": "Example 1: nums = [1,1,1,2,2,3], k = 2",
         },
-        {
-            "nums": [1],
-            "k": 1,
-            "expected": [1],
-            "name": "Example 2: nums = [1], k = 1"
-        },
+        {"nums": [1], "k": 1, "expected": [1], "name": "Example 2: nums = [1], k = 1"},
         {
             "nums": [1, 2, 3, 4, 5, 1, 2, 3, 1, 2],
             "k": 3,
             "expected": [1, 2, 3],
-            "name": "Example 3: nums = [1,2,3,4,5,1,2,3,1,2], k = 3"
-        }
+            "name": "Example 3: nums = [1,2,3,4,5,1,2,3,1,2], k = 3",
+        },
     ]
 
     # Запуск всех тестов
@@ -40,5 +37,6 @@ def main():
         print(f"  Expected: {tc['expected']}")
         print(f"  Got: {result}\n")
 
+
 if __name__ == "__main__":
-    main() 
+    main()
