@@ -89,6 +89,40 @@ This repository contains my solutions to the LeetCode Blind 75 problems, organiz
 
 ---
 
+## Running Solutions
+
+To run the solutions, you need Python 3.6 or higher.
+
+Example:
+
+    python arrays-and-hashing/1-two-sum/main.py
+
+## Requirements
+
+- Python 3.6+
+- typing (built-in in Python 3.5+)
+
+## Environment Setup
+
+Install the following VS Code extensions:
+
+- Python (ms-python.python)
+- Pylance (ms-python.vscode-pylance)
+- Black Formatter (ms-python.black-formatter)
+
+Install the required Python packages:
+
+    pip install black pylint
+
+## Automatic Formatting
+
+The project is set up for automatic code formatting on save using Black. For manual formatting, use:
+
+- Windows/Linux: Shift + Alt + F
+- Mac: Shift + Option + F
+
+---
+
 You can further mark problems as solved by putting a ✓ in the "Done" column.
 
 ---
