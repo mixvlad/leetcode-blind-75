@@ -165,10 +165,10 @@ This repository contains my solutions to the LeetCode Blind 75 problems, organiz
 
 | ID | Problem | Level | Done |
 |----|---------|-------|------|
-| 73 | [191. Number of 1 Bits](bit-manipulation/191-number-of-1-bits/main.py) | Easy | |
-| 74 | [338. Counting Bits](bit-manipulation/338-counting-bits/main.py) | Easy | |
-| 75 | [190. Reverse Bits](bit-manipulation/190-reverse-bits/main.py) | Easy | |
-| 76 | [371. Sum of Two Integers](bit-manipulation/371-sum-of-two-integers/main.py) | Medium | |
+| 72 | [191. Number of 1 Bits](bit-manipulation/191-number-of-1-bits/main.py) | Easy | |
+| 73 | [338. Counting Bits](bit-manipulation/338-counting-bits/main.py) | Easy | |
+| 74 | [190. Reverse Bits](bit-manipulation/190-reverse-bits/main.py) | Easy | |
+| 75 | [371. Sum of Two Integers](bit-manipulation/371-sum-of-two-integers/main.py) | Medium | |
 
 ---
 
