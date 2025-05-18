@@ -7,8 +7,8 @@ This repository contains my solutions to the LeetCode Blind 75 problems, organiz
 
 ## Arrays & Hashing
 
-| :--: | :--: | :--: | :-- |
 | ID | Level | Done | Problem |
+|:--:|:--:|:--:|:--|
 | 01 | Easy | ✓ | [1. Two Sum](arrays-and-hashing/1-two-sum/main.py) |
 | 02 | Easy | ✓ | [217. Contains Duplicate](arrays-and-hashing/217-contains-duplicate/main.py) |
 | 03 | Easy | ✓ | [242. Valid Anagram](arrays-and-hashing/242-valid-anagram/main.py) |
@@ -20,16 +20,16 @@ This repository contains my solutions to the LeetCode Blind 75 problems, organiz
 
 ## Two Pointers
 
-| :--: | :--: | :--: | :-- |
 | ID | Level | Done | Problem |
+|:--:|:--:|:--:|:--|
 | 09 | Easy | | [125. Valid Palindrome](two-pointers/125-valid-palindrome/main.py) |
 | 10 | Medium | | [15. 3Sum](two-pointers/15-3sum/main.py) |
 | 11 | Medium | | [11. Container With Most Water](two-pointers/11-container-with-most-water/main.py) |
 
 ## Sliding Window
 
-| :--: | :--: | :--: | :-- |
 | ID | Level | Done | Problem |
+|:--:|:--:|:--:|:--|
 | 12 | Easy | | [121. Best Time to Buy and Sell Stock](sliding-window/121-best-time-to-buy-and-sell-stock/main.py) |
 | 13 | Medium | | [3. Longest Substring Without Repeating Characters](sliding-window/3-longest-substring-without-repeating-characters/main.py) |
 | 14 | Medium | | [424. Longest Repeating Character Replacement](sliding-window/424-longest-repeating-character-replacement/main.py) |
@@ -37,21 +37,21 @@ This repository contains my solutions to the LeetCode Blind 75 problems, organiz
 
 ## Stack
 
-| :--: | :--: | :--: | :-- |
 | ID | Level | Done | Problem |
+|:--:|:--:|:--:|:--|
 | 16 | Easy | | [20. Valid Parentheses](stack/20-valid-parentheses/main.py) |
 
 ## Binary Search
 
-| :--: | :--: | :--: | :-- |
 | ID | Level | Done | Problem |
+|:--:|:--:|:--:|:--|
 | 17 | Medium | | [33. Search in Rotated Sorted Array](binary-search/33-search-in-rotated-sorted-array/main.py) |
 | 18 | Medium | | [153. Find Minimum in Rotated Sorted Array](binary-search/153-find-minimum-in-rotated-sorted-array/main.py) |
 
 ## Linked List
 
-| :--: | :--: | :--: | :-- |
 | ID | Level | Done | Problem |
+|:--:|:--:|:--:|:--|
 | 19 | Easy | | [206. Reverse Linked List](linked-list/206-reverse-linked-list/main.py) |
 | 20 | Easy | | [21. Merge Two Sorted Lists](linked-list/21-merge-two-sorted-lists/main.py) |
 | 21 | Easy | | [141. Linked List Cycle](linked-list/141-linked-list-cycle/main.py) |
@@ -61,8 +61,8 @@ This repository contains my solutions to the LeetCode Blind 75 problems, organiz
 
 ## Trees
 
-| :--: | :--: | :--: | :-- |
 | ID | Level | Done | Problem |
+|:--:|:--:|:--:|:--|
 | 25 | Easy | | [226. Invert Binary Tree](trees/226-invert-binary-tree/main.py) |
 | 26 | Easy | | [100. Same Tree](trees/100-same-tree/main.py) |
 | 27 | Medium | | [98. Validate Binary Search Tree](trees/98-validate-binary-search-tree/main.py) |
@@ -75,22 +75,22 @@ This repository contains my solutions to the LeetCode Blind 75 problems, organiz
 
 ## Tries
 
-| :--: | :--: | :--: | :-- |
 | ID | Level | Done | Problem |
+|:--:|:--:|:--:|:--|
 | 34 | Medium | | [208. Implement Trie (Prefix Tree)](tries/208-implement-trie-prefix-tree/main.py) |
 | 35 | Medium | | [211. Design Add and Search Words Data Structure](tries/211-design-add-and-search-words-data-structure/main.py) |
 
 ## Heap/Priority Queue
 
-| :--: | :--: | :--: | :-- |
 | ID | Level | Done | Problem |
+|:--:|:--:|:--:|:--|
 | 36 | Medium | | [215. Kth Largest Element in an Array](heap-priority-queue/215-kth-largest-element-in-an-array/main.py) |
 | 37 | Hard | | [295. Find Median from Data Stream](heap-priority-queue/295-find-median-from-data-stream/main.py) |
 
 ## Backtracking
 
-| :--: | :--: | :--: | :-- |
 | ID | Level | Done | Problem |
+|:--:|:--:|:--:|:--|
 | 38 | Medium | | [78. Subsets](backtracking/78-subsets/main.py) |
 | 39 | Medium | | [39. Combination Sum](backtracking/39-combination-sum/main.py) |
 | 40 | Medium | | [46. Permutations](backtracking/46-permutations/main.py) |
@@ -102,8 +102,8 @@ This repository contains my solutions to the LeetCode Blind 75 problems, organiz
 
 ## Graphs
 
-| :--: | :--: | :--: | :-- |
 | ID | Level | Done | Problem |
+|:--:|:--:|:--:|:--|
 | 46 | Medium | | [200. Number of Islands](graphs/200-number-of-islands/main.py) |
 | 47 | Medium | | [133. Clone Graph](graphs/133-clone-graph/main.py) |
 | 48 | Medium | | [207. Course Schedule](graphs/207-course-schedule/main.py) |
@@ -111,14 +111,14 @@ This repository contains my solutions to the LeetCode Blind 75 problems, organiz
 
 ## Advanced Graphs
 
-| :--: | :--: | :--: | :-- |
 | ID | Level | Done | Problem |
+|:--:|:--:|:--:|:--|
 | 50 | Hard | | [269. Alien Dictionary](advanced-graphs/269-alien-dictionary/main.py) |
 
 ## 1-D Dynamic Programming
 
-| :--: | :--: | :--: | :-- |
 | ID | Level | Done | Problem |
+|:--:|:--:|:--:|:--|
 | 51 | Easy | | [70. Climbing Stairs](dp-1d/70-climbing-stairs/main.py) |
 | 52 | Medium | | [198. House Robber](dp-1d/198-house-robber/main.py) |
 | 53 | Medium | | [213. House Robber II](dp-1d/213-house-robber-ii/main.py) |
@@ -132,22 +132,22 @@ This repository contains my solutions to the LeetCode Blind 75 problems, organiz
 
 ## 2-D Dynamic Programming
 
-| :--: | :--: | :--: | :-- |
 | ID | Level | Done | Problem |
+|:--:|:--:|:--:|:--|
 | 61 | Medium | | [62. Unique Paths](dp-2d/62-unique-paths/main.py) |
 | 62 | Medium | | [1143. Longest Common Subsequence](dp-2d/1143-longest-common-subsequence/main.py) |
 
 ## Greedy
 
-| :--: | :--: | :--: | :-- |
 | ID | Level | Done | Problem |
+|:--:|:--:|:--:|:--|
 | 63 | Medium | | [53. Maximum Subarray](greedy/53-maximum-subarray/main.py) |
 | 64 | Medium | | [55. Jump Game](greedy/55-jump-game/main.py) |
 
 ## Intervals
 
-| :--: | :--: | :--: | :-- |
 | ID | Level | Done | Problem |
+|:--:|:--:|:--:|:--|
 | 65 | Easy | | [252. Meeting Rooms](intervals/252-meeting-rooms/main.py) |
 | 66 | Medium | | [253. Meeting Rooms II](intervals/253-meeting-rooms-ii/main.py) |
 | 67 | Medium | | [56. Merge Intervals](intervals/56-merge-intervals/main.py) |
@@ -156,15 +156,15 @@ This repository contains my solutions to the LeetCode Blind 75 problems, organiz
 
 ## Math & Geometry
 
-| :--: | :--: | :--: | :-- |
 | ID | Level | Done | Problem |
+|:--:|:--:|:--:|:--|
 | 70 | Medium | | [48. Rotate Image](math-geometry/48-rotate-image/main.py) |
 | 71 | Medium | | [54. Spiral Matrix](math-geometry/54-spiral-matrix/main.py) |
 
 ## Bit Manipulation
 
-| :--: | :--: | :--: | :-- |
 | ID | Level | Done | Problem |
+|:--:|:--:|:--:|:--|
 | 72 | Easy | | [191. Number of 1 Bits](bit-manipulation/191-number-of-1-bits/main.py) |
 | 73 | Easy | | [338. Counting Bits](bit-manipulation/338-counting-bits/main.py) |
 | 74 | Easy | | [190. Reverse Bits](bit-manipulation/190-reverse-bits/main.py) |
