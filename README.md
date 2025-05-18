@@ -1,3 +1,4 @@
+
 # LeetCode Blind 75 Solutions
 
 This repository contains my solutions to the LeetCode Blind 75 problems, organized by category.  
@@ -9,14 +10,14 @@ This repository contains my solutions to the LeetCode Blind 75 problems, organiz
 
 | ID | Level | Done | Problem |
 |:--:|:--:|:--:|:--|
-| 01 | Easy | ✓ | [1. Two Sum](arrays-and-hashing/1-two-sum/main.py) |
-| 02 | Easy | ✓ | [217. Contains Duplicate](arrays-and-hashing/217-contains-duplicate/main.py) |
-| 03 | Easy | ✓ | [242. Valid Anagram](arrays-and-hashing/242-valid-anagram/main.py) |
-| 04 | Medium | ✓ | [49. Group Anagrams](arrays-and-hashing/49-group-anagrams/main.py) |
-| 05 | Medium | ✓ | [347. Top K Frequent Elements](arrays-and-hashing/347-top-k-frequent-elements/main.py) |
-| 06 | Medium | ✓ | [238. Product of Array Except Self](arrays-and-hashing/238-product-of-array-except-self/main.py) |
-| 07 | Medium | ✓ | [659. Encode and Decode Strings](arrays-and-hashing/659-encode-decode-strings/main.py) |
-| 08 | Medium | ✓ | [128. Longest Consecutive Sequence](arrays-and-hashing/128-longest-consecutive-sequence/main.py) |
+| 01 | Easy | | [217. Contains Duplicate](arrays-and-hashing/217-contains-duplicate/main.py) |
+| 02 | Easy | | [242. Valid Anagram](arrays-and-hashing/242-valid-anagram/main.py) |
+| 03 | Easy | | [1. Two Sum](arrays-and-hashing/1-two-sum/main.py) |
+| 04 | Medium | | [49. Group Anagrams](arrays-and-hashing/49-group-anagrams/main.py) |
+| 05 | Medium | | [347. Top K Frequent Elements](arrays-and-hashing/347-top-k-frequent-elements/main.py) |
+| 06 | Medium | | [238. Product of Array Except Self](arrays-and-hashing/238-product-of-array-except-self/main.py) |
+| 07 | Medium | | [271. Encode and Decode Strings](arrays-and-hashing/271-encode-and-decode-strings/main.py) |
+| 08 | Medium | | [128. Longest Consecutive Sequence](arrays-and-hashing/128-longest-consecutive-sequence/main.py) |
 
 ## Two Pointers
 
@@ -54,120 +55,120 @@ This repository contains my solutions to the LeetCode Blind 75 problems, organiz
 |:--:|:--:|:--:|:--|
 | 19 | Easy | | [206. Reverse Linked List](linked-list/206-reverse-linked-list/main.py) |
 | 20 | Easy | | [21. Merge Two Sorted Lists](linked-list/21-merge-two-sorted-lists/main.py) |
-| 21 | Easy | | [141. Linked List Cycle](linked-list/141-linked-list-cycle/main.py) |
-| 22 | Medium | | [143. Reorder List](linked-list/143-reorder-list/main.py) |
-| 23 | Medium | | [19. Remove Nth Node From End of List](linked-list/19-remove-nth-node-from-end-of-list/main.py) |
-| 24 | Hard | | [23. Merge K Sorted Lists](linked-list/23-merge-k-sorted-lists/main.py) |
+| 21 | Medium | | [143. Reorder List](linked-list/143-reorder-list/main.py) |
+| 22 | Medium | | [19. Remove Nth Node From End of List](linked-list/19-remove-nth-node-from-end-of-list/main.py) |
+| 23 | Easy | | [141. Linked List Cycle](linked-list/141-linked-list-cycle/main.py) |
+| 24 | Hard | | [23. Merge k Sorted Lists](linked-list/23-merge-k-sorted-lists/main.py) |
 
 ## Trees
 
 | ID | Level | Done | Problem |
 |:--:|:--:|:--:|:--|
 | 25 | Easy | | [226. Invert Binary Tree](trees/226-invert-binary-tree/main.py) |
-| 26 | Easy | | [100. Same Tree](trees/100-same-tree/main.py) |
-| 27 | Medium | | [98. Validate Binary Search Tree](trees/98-validate-binary-search-tree/main.py) |
-| 28 | Easy | | [110. Balanced Binary Tree](trees/110-balanced-binary-tree/main.py) |
-| 29 | Medium | | [102. Binary Tree Level Order Traversal](trees/102-binary-tree-level-order-traversal/main.py) |
-| 30 | Medium | | [235. Lowest Common Ancestor of a BST](trees/235-lowest-common-ancestor-of-a-bst/main.py) |
-| 31 | Medium | | [230. Kth Smallest Element in a BST](trees/230-kth-smallest-element-in-a-bst/main.py) |
-| 32 | Medium | | [105. Construct Binary Tree from Preorder and Inorder Traversal](trees/105-construct-binary-tree-from-preorder-and-inorder-traversal/main.py) |
-| 33 | Hard | | [124. Binary Tree Maximum Path Sum](trees/124-binary-tree-maximum-path-sum/main.py) |
+| 26 | Easy | | [104. Maximum Depth of Binary Tree](trees/104-maximum-depth-of-binary-tree/main.py) |
+| 27 | Easy | | [100. Same Tree](trees/100-same-tree/main.py) |
+| 28 | Easy | | [572. Subtree of Another Tree](trees/572-subtree-of-another-tree/main.py) |
+| 29 | Medium | | [235. Lowest Common Ancestor of a Binary Search Tree](trees/235-lowest-common-ancestor-of-a-bst/main.py) |
+| 30 | Medium | | [102. Binary Tree Level Order Traversal](trees/102-binary-tree-level-order-traversal/main.py) |
+| 31 | Medium | | [98. Validate Binary Search Tree](trees/98-validate-binary-search-tree/main.py) |
+| 32 | Medium | | [230. Kth Smallest Element in a BST](trees/230-kth-smallest-element-in-a-bst/main.py) |
+| 33 | Medium | | [105. Construct Binary Tree from Preorder and Inorder Traversal](trees/105-construct-binary-tree-from-preorder-and-inorder-traversal/main.py) |
+| 34 | Hard | | [124. Binary Tree Maximum Path Sum](trees/124-binary-tree-maximum-path-sum/main.py) |
+| 35 | Hard | | [297. Serialize and Deserialize Binary Tree](trees/297-serialize-and-deserialize-binary-tree/main.py) |
 
 ## Tries
 
 | ID | Level | Done | Problem |
 |:--:|:--:|:--:|:--|
-| 34 | Medium | | [208. Implement Trie (Prefix Tree)](tries/208-implement-trie-prefix-tree/main.py) |
-| 35 | Medium | | [211. Design Add and Search Words Data Structure](tries/211-design-add-and-search-words-data-structure/main.py) |
+| 36 | Medium | | [208. Implement Trie (Prefix Tree)](tries/208-implement-trie-prefix-tree/main.py) |
+| 37 | Medium | | [211. Design Add and Search Words Data Structure](tries/211-design-add-and-search-words-data-structure/main.py) |
+| 38 | Hard | | [212. Word Search II](tries/212-word-search-ii/main.py) |
 
-## Heap/Priority Queue
+## Heap & Priority Queue
 
 | ID | Level | Done | Problem |
 |:--:|:--:|:--:|:--|
-| 36 | Medium | | [215. Kth Largest Element in an Array](heap-priority-queue/215-kth-largest-element-in-an-array/main.py) |
-| 37 | Hard | | [295. Find Median from Data Stream](heap-priority-queue/295-find-median-from-data-stream/main.py) |
+| 39 | Hard | | [295. Find Median from Data Stream](heap-priority-queue/295-find-median-from-data-stream/main.py) |
 
 ## Backtracking
 
 | ID | Level | Done | Problem |
 |:--:|:--:|:--:|:--|
-| 38 | Medium | | [78. Subsets](backtracking/78-subsets/main.py) |
-| 39 | Medium | | [39. Combination Sum](backtracking/39-combination-sum/main.py) |
-| 40 | Medium | | [46. Permutations](backtracking/46-permutations/main.py) |
-| 41 | Medium | | [90. Subsets II](backtracking/90-subsets-ii/main.py) |
-| 42 | Medium | | [40. Combination Sum II](backtracking/40-combination-sum-ii/main.py) |
-| 43 | Medium | | [79. Word Search](backtracking/79-word-search/main.py) |
-| 44 | Medium | | [131. Palindrome Partitioning](backtracking/131-palindrome-partitioning/main.py) |
-| 45 | Medium | | [17. Letter Combinations of a Phone Number](backtracking/17-letter-combinations-of-a-phone-number/main.py) |
+| 40 | Medium | | [39. Combination Sum](backtracking/39-combination-sum/main.py) |
+| 41 | Medium | | [79. Word Search](backtracking/79-word-search/main.py) |
 
 ## Graphs
 
 | ID | Level | Done | Problem |
 |:--:|:--:|:--:|:--|
-| 46 | Medium | | [200. Number of Islands](graphs/200-number-of-islands/main.py) |
-| 47 | Medium | | [133. Clone Graph](graphs/133-clone-graph/main.py) |
-| 48 | Medium | | [207. Course Schedule](graphs/207-course-schedule/main.py) |
-| 49 | Medium | | [210. Course Schedule II](graphs/210-course-schedule-ii/main.py) |
+| 42 | Medium | | [200. Number of Islands](graphs/200-number-of-islands/main.py) |
+| 43 | Medium | | [133. Clone Graph](graphs/133-clone-graph/main.py) |
+| 44 | Medium | | [417. Pacific Atlantic Water Flow](graphs/417-pacific-atlantic-water-flow/main.py) |
+| 45 | Medium | | [207. Course Schedule](graphs/207-course-schedule/main.py) |
+| 46 | Medium | | [323. Number of Connected Components in an Undirected Graph](graphs/323-number-of-connected-components/main.py) |
+| 47 | Medium | | [261. Graph Valid Tree](graphs/261-graph-valid-tree/main.py) |
 
 ## Advanced Graphs
 
 | ID | Level | Done | Problem |
 |:--:|:--:|:--:|:--|
-| 50 | Hard | | [269. Alien Dictionary](advanced-graphs/269-alien-dictionary/main.py) |
+| 48 | Hard | | [269. Alien Dictionary](advanced-graphs/269-alien-dictionary/main.py) |
 
 ## 1-D Dynamic Programming
 
 | ID | Level | Done | Problem |
 |:--:|:--:|:--:|:--|
-| 51 | Easy | | [70. Climbing Stairs](dp-1d/70-climbing-stairs/main.py) |
-| 52 | Medium | | [198. House Robber](dp-1d/198-house-robber/main.py) |
-| 53 | Medium | | [213. House Robber II](dp-1d/213-house-robber-ii/main.py) |
-| 54 | Medium | | [5. Longest Palindromic Substring](dp-1d/5-longest-palindromic-substring/main.py) |
-| 55 | Medium | | [647. Palindromic Substrings](dp-1d/647-palindromic-substrings/main.py) |
-| 56 | Medium | | [91. Decode Ways](dp-1d/91-decode-ways/main.py) |
-| 57 | Medium | | [322. Coin Change](dp-1d/322-coin-change/main.py) |
-| 58 | Medium | | [152. Maximum Product Subarray](dp-1d/152-maximum-product-subarray/main.py) |
-| 59 | Medium | | [139. Word Break](dp-1d/139-word-break/main.py) |
-| 60 | Medium | | [300. Longest Increasing Subsequence](dp-1d/300-longest-increasing-subsequence/main.py) |
+| 49 | Easy | | [70. Climbing Stairs](dp-1d/70-climbing-stairs/main.py) |
+| 50 | Medium | | [198. House Robber](dp-1d/198-house-robber/main.py) |
+| 51 | Medium | | [213. House Robber II](dp-1d/213-house-robber-ii/main.py) |
+| 52 | Medium | | [5. Longest Palindromic Substring](dp-1d/5-longest-palindromic-substring/main.py) |
+| 53 | Medium | | [647. Palindromic Substrings](dp-1d/647-palindromic-substrings/main.py) |
+| 54 | Medium | | [91. Decode Ways](dp-1d/91-decode-ways/main.py) |
+| 55 | Medium | | [322. Coin Change](dp-1d/322-coin-change/main.py) |
+| 56 | Medium | | [152. Maximum Product Subarray](dp-1d/152-maximum-product-subarray/main.py) |
+| 57 | Medium | | [139. Word Break](dp-1d/139-word-break/main.py) |
+| 58 | Medium | | [300. Longest Increasing Subsequence](dp-1d/300-longest-increasing-subsequence/main.py) |
 
 ## 2-D Dynamic Programming
 
 | ID | Level | Done | Problem |
 |:--:|:--:|:--:|:--|
-| 61 | Medium | | [62. Unique Paths](dp-2d/62-unique-paths/main.py) |
-| 62 | Medium | | [1143. Longest Common Subsequence](dp-2d/1143-longest-common-subsequence/main.py) |
+| 59 | Medium | | [62. Unique Paths](dp-2d/62-unique-paths/main.py) |
+| 60 | Medium | | [1143. Longest Common Subsequence](dp-2d/1143-longest-common-subsequence/main.py) |
 
 ## Greedy
 
 | ID | Level | Done | Problem |
 |:--:|:--:|:--:|:--|
-| 63 | Medium | | [53. Maximum Subarray](greedy/53-maximum-subarray/main.py) |
-| 64 | Medium | | [55. Jump Game](greedy/55-jump-game/main.py) |
+| 61 | Medium | | [53. Maximum Subarray](greedy/53-maximum-subarray/main.py) |
+| 62 | Medium | | [55. Jump Game](greedy/55-jump-game/main.py) |
 
 ## Intervals
 
 | ID | Level | Done | Problem |
 |:--:|:--:|:--:|:--|
-| 65 | Easy | | [252. Meeting Rooms](intervals/252-meeting-rooms/main.py) |
-| 66 | Medium | | [253. Meeting Rooms II](intervals/253-meeting-rooms-ii/main.py) |
-| 67 | Medium | | [56. Merge Intervals](intervals/56-merge-intervals/main.py) |
-| 68 | Medium | | [57. Insert Interval](intervals/57-insert-interval/main.py) |
-| 69 | Medium | | [435. Non-overlapping Intervals](intervals/435-non-overlapping-intervals/main.py) |
+| 63 | Medium | | [57. Insert Interval](intervals/57-insert-interval/main.py) |
+| 64 | Medium | | [56. Merge Intervals](intervals/56-merge-intervals/main.py) |
+| 65 | Medium | | [435. Non-overlapping Intervals](intervals/435-non-overlapping-intervals/main.py) |
+| 66 | Easy | | [252. Meeting Rooms](intervals/252-meeting-rooms/main.py) |
+| 67 | Medium | | [253. Meeting Rooms II](intervals/253-meeting-rooms-ii/main.py) |
 
 ## Math & Geometry
 
 | ID | Level | Done | Problem |
 |:--:|:--:|:--:|:--|
-| 70 | Medium | | [48. Rotate Image](math-geometry/48-rotate-image/main.py) |
-| 71 | Medium | | [54. Spiral Matrix](math-geometry/54-spiral-matrix/main.py) |
+| 68 | Medium | | [48. Rotate Image](math-geometry/48-rotate-image/main.py) |
+| 69 | Medium | | [54. Spiral Matrix](math-geometry/54-spiral-matrix/main.py) |
+| 70 | Medium | | [73. Set Matrix Zeroes](math-geometry/73-set-matrix-zeroes/main.py) |
 
 ## Bit Manipulation
 
 | ID | Level | Done | Problem |
 |:--:|:--:|:--:|:--|
-| 72 | Easy | | [191. Number of 1 Bits](bit-manipulation/191-number-of-1-bits/main.py) |
-| 73 | Easy | | [338. Counting Bits](bit-manipulation/338-counting-bits/main.py) |
-| 74 | Easy | | [190. Reverse Bits](bit-manipulation/190-reverse-bits/main.py) |
+| 71 | Easy | | [191. Number of 1 Bits](bit-manipulation/191-number-of-1-bits/main.py) |
+| 72 | Easy | | [338. Counting Bits](bit-manipulation/338-counting-bits/main.py) |
+| 73 | Easy | | [190. Reverse Bits](bit-manipulation/190-reverse-bits/main.py) |
+| 74 | Easy | | [268. Missing Number](bit-manipulation/268-missing-number/main.py) |
 | 75 | Medium | | [371. Sum of Two Integers](bit-manipulation/371-sum-of-two-integers/main.py) |
 
 ---
@@ -178,7 +179,7 @@ To run the solutions, you need Python 3.6 or higher.
 
 Example:
 
-    python arrays-and-hashing/1-two-sum/main.py
+python arrays-and-hashing/1-two-sum/main.py
 
 ## Requirements
 
@@ -195,7 +196,7 @@ Install the following VS Code extensions:
 
 Install the required Python packages:
 
-    pip install black pylint
+pip install black pylint
 
 ## Automatic Formatting
 
@@ -203,3 +204,4 @@ The project is set up for automatic code formatting on save using Black. For man
 
 - Windows/Linux: Shift + Alt + F
 - Mac: Shift + Option + F
+
