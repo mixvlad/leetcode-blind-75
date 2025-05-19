@@ -3,6 +3,12 @@
 This repository contains my solutions to the LeetCode Blind 75 problems, organized by category.  
 **Checked** means the problem is solved and present in the repository.
 
+## Progress Statistics
+- Easy: 8/15 solved (53.3%)
+- Medium: 4/45 solved (8.9%)
+- Hard: 0/7 solved (0%)
+- Total: 12/67 solved (17.9%)
+
 ---
 
 ## Arrays & Hashing
