@@ -3,11 +3,12 @@
 This repository contains my solutions to the LeetCode Blind 75 problems, organized by category.  
 **Checked** means the problem is solved and present in the repository.
 
-## Progress Statistics
-- Easy: 15/15 solved (100%)
-- Medium: 9/45 solved (20%)
-- Hard: 0/7 solved (0%)
-- Total: 24/67 solved (35.8%)
+Progress Statistics
+-------------------
+* Easy:   15/19 solved (78.9 %)
+* Medium:  9/49 solved (18.4 %)
+* Hard:    0/7  solved (0.0 %)
+* Total:  24/75 solved (32.0 %)
 
 ---
 
@@ -171,11 +172,11 @@ This repository contains my solutions to the LeetCode Blind 75 problems, organiz
 
 | ID | Level | Done | Problem | Solution |
 |:--:|:--:|:--:|:--|:--|
-| 71 | Easy | | [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [Solution](bit-manipulation/191-number-of-1-bits/main.py) |
-| 72 | Easy | | [338. Counting Bits](https://leetcode.com/problems/counting-bits/) | [Solution](bit-manipulation/338-counting-bits/main.py) |
-| 73 | Easy | | [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/) | [Solution](bit-manipulation/190-reverse-bits/main.py) |
-| 74 | Easy | | [268. Missing Number](https://leetcode.com/problems/missing-number/) | [Solution](bit-manipulation/268-missing-number/main.py) |
-| 75 | Medium | | [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | [Solution](bit-manipulation/371-sum-of-two-integers/main.py) |
+| 71 | Easy | ✅ | [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [Solution](bit-manipulation/191-number-of-1-bits/main.py) |
+| 72 | Easy | ✅ | [338. Counting Bits](https://leetcode.com/problems/counting-bits/) | [Solution](bit-manipulation/338-counting-bits/main.py) |
+| 73 | Easy | ✅ | [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/) | [Solution](bit-manipulation/190-reverse-bits/main.py) |
+| 74 | Easy | ✅ | [268. Missing Number](https://leetcode.com/problems/missing-number/) | [Solution](bit-manipulation/268-missing-number/main.py) |
+| 75 | Medium | ✅ | [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | [Solution](bit-manipulation/371-sum-of-two-integers/main.py) |
 
 ---
 

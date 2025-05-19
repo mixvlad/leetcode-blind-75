@@ -1,21 +1,17 @@
 from typing import List
 
+
 def count_bits(n: int) -> List[int]:
-    # TODO: Implement your solution here
-    pass
+    result = [0] * (n + 1)
+    for i in range(1, n + 1):
+        result[i] = result[i & (i - 1)] + 1
+    return result
+
 
 def main():
     test_cases = [
-        {
-            "input": 2,
-            "expected": [0, 1, 1],
-            "name": "Example 1"
-        },
-        {
-            "input": 5,
-            "expected": [0, 1, 1, 2, 1, 2],
-            "name": "Example 2"
-        }
+        {"input": 2, "expected": [0, 1, 1], "name": "Example 1"},
+        {"input": 5, "expected": [0, 1, 1, 2, 1, 2], "name": "Example 2"},
     ]
 
     for tc in test_cases:
@@ -26,5 +22,6 @@ def main():
         print(f"  Expected: {tc['expected']}")
         print(f"  Got: {result}\n")
 
+
 if __name__ == "__main__":
-    main() 
+    main()
