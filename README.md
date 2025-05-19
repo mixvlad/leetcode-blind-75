@@ -5,10 +5,10 @@ This repository contains my solutions to the LeetCode Blind 75 problems, organiz
 
 Progress Statistics
 -------------------
-* Easy:   15/19 solved (78.9 %)
-* Medium:  9/49 solved (18.4 %)
-* Hard:    0/7  solved (0.0 %)
-* Total:  24/75 solved (32.0 %)
+* Easy: 19 / 19 solved (100.0 %)
+* Medium: 12 / 49 solved (24.5 %)
+* Hard: 0 / 7 solved (0.0 %)
+* Total: 31 / 75 solved (41.3 %)
 
 ---
 
