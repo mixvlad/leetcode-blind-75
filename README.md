@@ -22,7 +22,7 @@ This repository contains my solutions to the LeetCode Blind 75 problems, organiz
 
 | ID | Level | Done | Problem | Solution |
 |:--:|:--:|:--:|:--|:--|
-| 09 | Easy | | [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [Solution](two-pointers/125-valid-palindrome/main.py) |
+| 09 | Easy | ✅ | [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [Solution](two-pointers/125-valid-palindrome/main.py) |
 | 10 | Medium | | [15. 3Sum](https://leetcode.com/problems/3sum/) | [Solution](two-pointers/15-3sum/main.py) |
 | 11 | Medium | | [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [Solution](two-pointers/11-container-with-most-water/main.py) |
 
@@ -30,8 +30,8 @@ This repository contains my solutions to the LeetCode Blind 75 problems, organiz
 
 | ID | Level | Done | Problem | Solution |
 |:--:|:--:|:--:|:--|:--|
-| 12 | Easy | | [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Solution](sliding-window/121-best-time-to-buy-and-sell-stock/main.py) |
-| 13 | Medium | | [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Solution](sliding-window/3-longest-substring-without-repeating-characters/main.py) |
+| 12 | Easy | ✅ | [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Solution](sliding-window/121-best-time-to-buy-and-sell-stock/main.py) |
+| 13 | Medium | ✅ | [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Solution](sliding-window/3-longest-substring-without-repeating-characters/main.py) |
 | 14 | Medium | | [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Solution](sliding-window/424-longest-repeating-character-replacement/main.py) |
 | 15 | Hard | | [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [Solution](sliding-window/76-minimum-window-substring/main.py) |
 
@@ -39,7 +39,7 @@ This repository contains my solutions to the LeetCode Blind 75 problems, organiz
 
 | ID | Level | Done | Problem | Solution |
 |:--:|:--:|:--:|:--|:--|
-| 16 | Easy | | [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Solution](stack/20-valid-parentheses/main.py) |
+| 16 | Easy | ✅ | [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Solution](stack/20-valid-parentheses/main.py) |
 
 ## Binary Search
 
@@ -52,8 +52,8 @@ This repository contains my solutions to the LeetCode Blind 75 problems, organiz
 
 | ID | Level | Done | Problem | Solution |
 |:--:|:--:|:--:|:--|:--|
-| 19 | Easy | | [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Solution](linked-list/206-reverse-linked-list/main.py) |
-| 20 | Easy | | [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Solution](linked-list/21-merge-two-sorted-lists/main.py) |
+| 19 | Easy | ✅ | [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Solution](linked-list/206-reverse-linked-list/main.py) |
+| 20 | Easy | ✅ | [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Solution](linked-list/21-merge-two-sorted-lists/main.py) |
 | 21 | Medium | | [143. Reorder List](https://leetcode.com/problems/reorder-list/) | [Solution](linked-list/143-reorder-list/main.py) |
 | 22 | Medium | | [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Solution](linked-list/19-remove-nth-node-from-end-of-list/main.py) |
 | 23 | Easy | | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Solution](linked-list/141-linked-list-cycle/main.py) |

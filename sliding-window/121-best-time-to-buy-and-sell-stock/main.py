@@ -1,8 +1,15 @@
 from typing import List
-
+import sys
 def max_profit(prices: List[int]) -> int:
-    # TODO: Implement your solution here
-    pass
+    maxsell = 0
+    minbuy = sys.maxsize
+    for x in prices:
+        diff = x - minbuy
+        if x < minbuy:
+            minbuy = x
+        elif diff > maxsell:
+            maxsell = diff
+    return maxsell
 
 def main():
     test_cases = [

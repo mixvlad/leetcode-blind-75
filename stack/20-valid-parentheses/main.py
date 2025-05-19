@@ -1,8 +1,16 @@
+from collections import deque
 from typing import List
 
 def is_valid(s: str) -> bool:
-    # TODO: Implement your solution here
-    pass
+    bracket_map = {"(": ")", "[": "]",  "{": "}"}
+    open_par = set(["(", "[", "{"])
+    stack = deque()
+    for i in s:
+        if i in open_par:
+            stack.append(i)
+        elif not stack or i != bracket_map[stack.pop()]:
+            return False
+    return not stack
 
 def main():
     test_cases = [

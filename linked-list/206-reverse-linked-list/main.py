@@ -6,8 +6,13 @@ class ListNode:
         self.next = next
 
 def reverse_list(head: Optional[ListNode]) -> Optional[ListNode]:
-    # TODO: Implement your solution here
-    pass
+    if not head or not head.next:
+        return head
+    newhead = reverse_list(head.next)
+    if head.next:
+        head.next.next = head
+        head.next = None
+    return newhead
 
 def list_to_linked_list(lst: List[int]) -> Optional[ListNode]:
     if not lst:
