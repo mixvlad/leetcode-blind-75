@@ -9,14 +9,14 @@ This repository contains my solutions to the LeetCode Blind 75 problems, organiz
 
 | ID | Level | Done | Problem | Solution |
 |:--:|:--:|:--:|:--|:--|
-| 01 | Easy | | [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Solution](arrays-and-hashing/217-contains-duplicate/main.py) |
-| 02 | Easy | | [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Solution](arrays-and-hashing/242-valid-anagram/main.py) |
-| 03 | Easy | | [1. Two Sum](https://leetcode.com/problems/two-sum/) | [Solution](arrays-and-hashing/1-two-sum/main.py) |
-| 04 | Medium | | [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Solution](arrays-and-hashing/49-group-anagrams/main.py) |
-| 05 | Medium | | [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Solution](arrays-and-hashing/347-top-k-frequent-elements/main.py) |
-| 06 | Medium | | [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Solution](arrays-and-hashing/238-product-of-array-except-self/main.py) |
-| 07 | Medium | | [271. Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) | [Solution](arrays-and-hashing/271-encode-and-decode-strings/main.py) |
-| 08 | Medium | | [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | [Solution](arrays-and-hashing/128-longest-consecutive-sequence/main.py) |
+| 01 | Easy | ✅ | [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Solution](arrays-and-hashing/217-contains-duplicate/main.py) |
+| 02 | Easy | ✅ | [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Solution](arrays-and-hashing/242-valid-anagram/main.py) |
+| 03 | Easy | ✅ | [1. Two Sum](https://leetcode.com/problems/two-sum/) | [Solution](arrays-and-hashing/1-two-sum/main.py) |
+| 04 | Medium | ✅ | [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Solution](arrays-and-hashing/49-group-anagrams/main.py) |
+| 05 | Medium | ✅ | [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Solution](arrays-and-hashing/347-top-k-frequent-elements/main.py) |
+| 06 | Medium | ✅ | [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Solution](arrays-and-hashing/238-product-of-array-except-self/main.py) |
+| 07 | Medium | ✅ | [271. Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) | [Solution](arrays-and-hashing/271-encode-and-decode-strings/main.py) |
+| 08 | Medium | ✅ | [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | [Solution](arrays-and-hashing/128-longest-consecutive-sequence/main.py) |
 
 ## Two Pointers
 
