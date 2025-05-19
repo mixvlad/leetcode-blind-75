@@ -52,8 +52,8 @@ Progress Statistics
 
 | ID | Level | Done | Problem | Solution |
 |:--:|:--:|:--:|:--|:--|
-| 17 | Medium | | [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Solution](binary-search/33-search-in-rotated-sorted-array/main.py) |
-| 18 | Medium | | [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Solution](binary-search/153-find-minimum-in-rotated-sorted-array/main.py) |
+| 17 | Medium | ✅ | [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Solution](binary-search/33-search-in-rotated-sorted-array/main.py) |
+| 18 | Medium | ✅ | [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Solution](binary-search/153-find-minimum-in-rotated-sorted-array/main.py) |
 
 ## Linked List
 
