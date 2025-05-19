@@ -4,10 +4,10 @@ This repository contains my solutions to the LeetCode Blind 75 problems, organiz
 **Checked** means the problem is solved and present in the repository.
 
 ## Progress Statistics
-- Easy: 8/15 solved (53.3%)
+- Easy: 13/15 solved (86.7%)
 - Medium: 6/45 solved (13.3%)
 - Hard: 0/7 solved (0%)
-- Total: 14/67 solved (20.9%)
+- Total: 19/67 solved (28.4%)
 
 ---
 
@@ -60,19 +60,19 @@ This repository contains my solutions to the LeetCode Blind 75 problems, organiz
 |:--:|:--:|:--:|:--|:--|
 | 19 | Easy | ✅ | [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Solution](linked-list/206-reverse-linked-list/main.py) |
 | 20 | Easy | ✅ | [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Solution](linked-list/21-merge-two-sorted-lists/main.py) |
-| 21 | Medium | | [143. Reorder List](https://leetcode.com/problems/reorder-list/) | [Solution](linked-list/143-reorder-list/main.py) |
+| 21 | Easy | ✅ | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Solution](linked-list/141-linked-list-cycle/main.py) |
 | 22 | Medium | | [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Solution](linked-list/19-remove-nth-node-from-end-of-list/main.py) |
-| 23 | Easy | | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Solution](linked-list/141-linked-list-cycle/main.py) |
+| 23 | Medium | | [143. Reorder List](https://leetcode.com/problems/reorder-list/) | [Solution](linked-list/143-reorder-list/main.py) |
 | 24 | Hard | | [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [Solution](linked-list/23-merge-k-sorted-lists/main.py) |
 
 ## Trees
 
 | ID | Level | Done | Problem | Solution |
 |:--:|:--:|:--:|:--|:--|
-| 25 | Easy | | [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Solution](trees/226-invert-binary-tree/main.py) |
-| 26 | Easy | | [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Solution](trees/104-maximum-depth-of-binary-tree/main.py) |
-| 27 | Easy | | [100. Same Tree](https://leetcode.com/problems/same-tree/) | [Solution](trees/100-same-tree/main.py) |
-| 28 | Easy | | [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | [Solution](trees/572-subtree-of-another-tree/main.py) |
+| 25 | Easy | ✅ | [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Solution](trees/226-invert-binary-tree/main.py) |
+| 26 | Easy | ✅ | [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Solution](trees/104-maximum-depth-of-binary-tree/main.py) |
+| 27 | Easy | ✅ | [100. Same Tree](https://leetcode.com/problems/same-tree/) | [Solution](trees/100-same-tree/main.py) |
+| 28 | Easy | ✅ | [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | [Solution](trees/572-subtree-of-another-tree/main.py) |
 | 29 | Medium | | [235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Solution](trees/235-lowest-common-ancestor-of-a-bst/main.py) |
 | 30 | Medium | | [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Solution](trees/102-binary-tree-level-order-traversal/main.py) |
 | 31 | Medium | | [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Solution](trees/98-validate-binary-search-tree/main.py) |
@@ -152,11 +152,12 @@ This repository contains my solutions to the LeetCode Blind 75 problems, organiz
 
 | ID | Level | Done | Problem | Solution |
 |:--:|:--:|:--:|:--|:--|
-| 63 | Medium | | [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | [Solution](intervals/57-insert-interval/main.py) |
-| 64 | Medium | | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Solution](intervals/56-merge-intervals/main.py) |
-| 65 | Medium | | [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | [Solution](intervals/435-non-overlapping-intervals/main.py) |
-| 66 | Easy | | [252. Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) | [Solution](intervals/252-meeting-rooms/main.py) |
-| 67 | Medium | | [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | [Solution](intervals/253-meeting-rooms-ii/main.py) |
+| 63 | Easy | | [252. Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) | [Solution](intervals/252-meeting-rooms/main.py) |
+| 64 | Medium | | [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | [Solution](intervals/253-meeting-rooms-ii/main.py) |
+| 65 | Medium | | [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | [Solution](intervals/57-insert-interval/main.py) |
+| 66 | Medium | | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Solution](intervals/56-merge-intervals/main.py) |
+| 67 | Medium | | [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | [Solution](intervals/435-non-overlapping-intervals/main.py) |
+
 
 ## Math & Geometry
 
