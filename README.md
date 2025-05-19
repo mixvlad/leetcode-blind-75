@@ -4,10 +4,10 @@ This repository contains my solutions to the LeetCode Blind 75 problems, organiz
 **Checked** means the problem is solved and present in the repository.
 
 ## Progress Statistics
-- Easy: 13/15 solved (86.7%)
-- Medium: 6/45 solved (13.3%)
+- Easy: 15/15 solved (100%)
+- Medium: 9/45 solved (20%)
 - Hard: 0/7 solved (0%)
-- Total: 19/67 solved (28.4%)
+- Total: 24/67 solved (35.8%)
 
 ---
 
@@ -29,8 +29,8 @@ This repository contains my solutions to the LeetCode Blind 75 problems, organiz
 | ID | Level | Done | Problem | Solution |
 |:--:|:--:|:--:|:--|:--|
 | 09 | Easy | ✅ | [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [Solution](two-pointers/125-valid-palindrome/main.py) |
-| 10 | Medium | | [15. 3Sum](https://leetcode.com/problems/3sum/) | [Solution](two-pointers/15-3sum/main.py) |
-| 11 | Medium | | [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [Solution](two-pointers/11-container-with-most-water/main.py) |
+| 10 | Medium | ✅ | [15. 3Sum](https://leetcode.com/problems/3sum/) | [Solution](two-pointers/15-3sum/main.py) |
+| 11 | Medium | ✅ | [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [Solution](two-pointers/11-container-with-most-water/main.py) |
 
 ## Sliding Window
 
@@ -38,7 +38,7 @@ This repository contains my solutions to the LeetCode Blind 75 problems, organiz
 |:--:|:--:|:--:|:--|:--|
 | 12 | Easy | ✅ | [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Solution](sliding-window/121-best-time-to-buy-and-sell-stock/main.py) |
 | 13 | Medium | ✅ | [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Solution](sliding-window/3-longest-substring-without-repeating-characters/main.py) |
-| 14 | Medium | | [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Solution](sliding-window/424-longest-repeating-character-replacement/main.py) |
+| 14 | Medium | ✅ | [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Solution](sliding-window/424-longest-repeating-character-replacement/main.py) |
 | 15 | Hard | | [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [Solution](sliding-window/76-minimum-window-substring/main.py) |
 
 ## Stack
@@ -123,7 +123,7 @@ This repository contains my solutions to the LeetCode Blind 75 problems, organiz
 
 | ID | Level | Done | Problem | Solution |
 |:--:|:--:|:--:|:--|:--|
-| 49 | Easy | | [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Solution](dp-1d/70-climbing-stairs/main.py) |
+| 49 | Easy | ✅ | [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Solution](dp-1d/70-climbing-stairs/main.py) |
 | 50 | Medium | | [198. House Robber](https://leetcode.com/problems/house-robber/) | [Solution](dp-1d/198-house-robber/main.py) |
 | 51 | Medium | | [213. House Robber II](https://leetcode.com/problems/house-robber-ii/) | [Solution](dp-1d/213-house-robber-ii/main.py) |
 | 52 | Medium | | [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Solution](dp-1d/5-longest-palindromic-substring/main.py) |
@@ -152,7 +152,7 @@ This repository contains my solutions to the LeetCode Blind 75 problems, organiz
 
 | ID | Level | Done | Problem | Solution |
 |:--:|:--:|:--:|:--|:--|
-| 63 | Easy | | [252. Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) | [Solution](intervals/252-meeting-rooms/main.py) |
+| 63 | Easy | ✅ | [252. Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) | [Solution](intervals/252-meeting-rooms/main.py) |
 | 64 | Medium | | [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | [Solution](intervals/253-meeting-rooms-ii/main.py) |
 | 65 | Medium | | [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | [Solution](intervals/57-insert-interval/main.py) |
 | 66 | Medium | | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Solution](intervals/56-merge-intervals/main.py) |
