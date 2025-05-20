@@ -1,0 +1,22 @@
+{
+    "rules": {
+        "language": "russian",
+        "codeStyle": {
+            "indentation": "spaces",
+            "spacesPerTab": 4,
+            "maxLineLength": 100
+        },
+        "documentation": {
+            "requireComments": true,
+            "commentLanguage": "english"
+        },
+        "testing": {
+            "requireTests": true,
+            "testFramework": "pytest"
+        },
+        "security": {
+            "noHardcodedSecrets": true,
+            "requireInputValidation": true
+        }
+    }
+}

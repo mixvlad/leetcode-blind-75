@@ -1,50 +1,73 @@
 from typing import Optional
 
+
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val
         self.left = left
         self.right = right
 
+
 class Solution:
-    def lowestCommonAncestor(self, root: TreeNode, p: TreeNode, q: TreeNode) -> TreeNode:
-        """
-        @param: root: The root of the BST
-        @param: p: First node
-        @param: q: Second node
-        @return: The lowest common ancestor of p and q
-        """
-        pass
+    def lowestCommonAncestor(
+        self, root: TreeNode, p: TreeNode, q: TreeNode
+    ) -> TreeNode:
+        while root:
+            if p.val < root.val and q.val < root.val:
+                root = root.left
+            elif p.val > root.val and q.val > root.val:
+                root = root.right
+            else:
+                return root
+
+
+def create_test_tree():
+    """Создает тестовое дерево для всех тестовых случаев."""
+    root = TreeNode(6)
+    root.left = TreeNode(2)
+    root.right = TreeNode(8)
+    root.left.left = TreeNode(0)
+    root.left.right = TreeNode(4)
+    root.right.left = TreeNode(7)
+    root.right.right = TreeNode(9)
+    root.left.right.left = TreeNode(3)
+    root.left.right.right = TreeNode(5)
+    return root
+
 
 def main():
     solution = Solution()
-    
-    # Test case 1: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 8
-    root1 = TreeNode(6)
-    root1.left = TreeNode(2)
-    root1.right = TreeNode(8)
-    root1.left.left = TreeNode(0)
-    root1.left.right = TreeNode(4)
-    root1.right.left = TreeNode(7)
-    root1.right.right = TreeNode(9)
-    root1.left.right.left = TreeNode(3)
-    root1.left.right.right = TreeNode(5)
-    
-    p1 = root1.left  # 2
-    q1 = root1.right  # 8
-    
-    # Test case 2: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 4
-    root2 = root1
-    p2 = root2.left  # 2
-    q2 = root2.left.right  # 4
-    
-    test_cases = [(root1, p1, q1), (root2, p2, q2)]
-    
-    for i, (root, p, q) in enumerate(test_cases, 1):
-        result = solution.lowestCommonAncestor(root, p, q)
-        print(f"Test case {i}:")
-        print(f"LCA of {p.val} and {q.val}: {result.val}")
-        print()
+    root = create_test_tree()
+
+    test_cases = [
+        {
+            "name": "Тест 1: LCA для узлов в разных поддеревьях",
+            "p": root.left,  # 2
+            "q": root.right,  # 8
+            "expected": 6,
+        },
+        {
+            "name": "Тест 2: LCA для узлов в одном поддереве",
+            "p": root.left,  # 2
+            "q": root.left.right,  # 4
+            "expected": 2,
+        },
+        {
+            "name": "Тест 3: LCA для узлов на разных уровнях",
+            "p": root.left.right.left,  # 3
+            "q": root.left.right.right,  # 5
+            "expected": 4,
+        },
+    ]
+
+    for test in test_cases:
+        print(f"\n{test['name']}")
+        print(f"Узлы: {test['p'].val} и {test['q'].val}")
+        result = solution.lowestCommonAncestor(root, test["p"], test["q"])
+        print(f"Ожидаемый LCA: {test['expected']}")
+        print(f"Полученный LCA: {result.val}")
+        print(f"Тест {'пройден' if result.val == test['expected'] else 'не пройден'}")
+
 
 if __name__ == "__main__":
-    main() 
+    main()

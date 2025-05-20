@@ -62,8 +62,8 @@ Progress Statistics
 | 19 | Easy | ✅ | [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Solution](linked-list/206-reverse-linked-list/main.py) |
 | 20 | Easy | ✅ | [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Solution](linked-list/21-merge-two-sorted-lists/main.py) |
 | 21 | Easy | ✅ | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Solution](linked-list/141-linked-list-cycle/main.py) |
-| 22 | Medium | | [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Solution](linked-list/19-remove-nth-node-from-end-of-list/main.py) |
-| 23 | Medium | | [143. Reorder List](https://leetcode.com/problems/reorder-list/) | [Solution](linked-list/143-reorder-list/main.py) |
+| 22 | Medium | ✅ | [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Solution](linked-list/19-remove-nth-node-from-end-of-list/main.py) |
+| 23 | Medium | ✅ | [143. Reorder List](https://leetcode.com/problems/reorder-list/) | [Solution](linked-list/143-reorder-list/main.py) |
 | 24 | Hard | | [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [Solution](linked-list/23-merge-k-sorted-lists/main.py) |
 
 ## Trees
@@ -74,8 +74,8 @@ Progress Statistics
 | 26 | Easy | ✅ | [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Solution](trees/104-maximum-depth-of-binary-tree/main.py) |
 | 27 | Easy | ✅ | [100. Same Tree](https://leetcode.com/problems/same-tree/) | [Solution](trees/100-same-tree/main.py) |
 | 28 | Easy | ✅ | [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | [Solution](trees/572-subtree-of-another-tree/main.py) |
-| 29 | Medium | | [235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Solution](trees/235-lowest-common-ancestor-of-a-bst/main.py) |
-| 30 | Medium | | [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Solution](trees/102-binary-tree-level-order-traversal/main.py) |
+| 29 | Medium | ✅ | [235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Solution](trees/235-lowest-common-ancestor-of-a-bst/main.py) |
+| 30 | Medium | ✅ | [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Solution](trees/102-binary-tree-level-order-traversal/main.py) |
 | 31 | Medium | | [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Solution](trees/98-validate-binary-search-tree/main.py) |
 | 32 | Medium | | [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Solution](trees/230-kth-smallest-element-in-a-bst/main.py) |
 | 33 | Medium | | [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Solution](trees/105-construct-binary-tree-from-preorder-and-inorder-traversal/main.py) |
