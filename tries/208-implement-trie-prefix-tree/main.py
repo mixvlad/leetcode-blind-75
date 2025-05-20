@@ -3,21 +3,56 @@ class TrieNode:
         self.children = {}
         self.is_end = False
 
+
 class Trie:
     def __init__(self):
         self.root = TrieNode()
 
     def insert(self, word: str) -> None:
-        # TODO: Implement your solution here
-        pass
+        # Start from the root node
+        current = self.root
+
+        # Traverse through each character in the word
+        for char in word:
+            # If the character is not in children, create a new node
+            if char not in current.children:
+                current.children[char] = TrieNode()
+            # Move to the next node
+            current = current.children[char]
+
+        # Mark the end of the word
+        current.is_end = True
 
     def search(self, word: str) -> bool:
-        # TODO: Implement your solution here
-        pass
+        # Start from the root node
+        current = self.root
 
-    def starts_with(self, prefix: str) -> bool:
-        # TODO: Implement your solution here
-        pass
+        # Traverse through each character in the word
+        for char in word:
+            # If character not found, word doesn't exist
+            if char not in current.children:
+                return False
+            # Move to the next node
+            current = current.children[char]
+
+        # Check if we've reached the end of a word
+        return current.is_end
+
+    def startsWith(self, prefix: str) -> bool:
+        # Start from the root node
+        current = self.root
+
+        # Traverse through each character in the prefix
+        for char in prefix:
+            # If character not found, prefix doesn't exist
+            if char not in current.children:
+                return False
+            # Move to the next node
+            current = current.children[char]
+
+        # If we've reached here, prefix exists
+        return True
+
 
 def main():
     test_cases = [
@@ -26,11 +61,11 @@ def main():
                 ("insert", "apple"),
                 ("search", "apple", True),
                 ("search", "app", False),
-                ("starts_with", "app", True),
+                ("startsWith", "app", True),
                 ("insert", "app"),
-                ("search", "app", True)
+                ("search", "app", True),
             ],
-            "name": "Example 1"
+            "name": "Example 1",
         }
     ]
 
@@ -49,7 +84,7 @@ def main():
                 print(f"  Expected: {expected}")
                 print(f"  Got: {result}")
             elif op[0] == "starts_with":
-                result = trie.starts_with(op[1])
+                result = trie.startsWith(op[1])
                 expected = op[2]
                 status = "✓" if result == expected else "✗"
                 print(f"{status} Starts With: {op[1]}")
@@ -57,5 +92,6 @@ def main():
                 print(f"  Got: {result}")
         print()
 
+
 if __name__ == "__main__":
-    main() 
+    main()

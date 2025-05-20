@@ -76,9 +76,9 @@ Progress Statistics
 | 28 | Easy | ✅ | [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | [Solution](trees/572-subtree-of-another-tree/main.py) |
 | 29 | Medium | ✅ | [235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Solution](trees/235-lowest-common-ancestor-of-a-bst/main.py) |
 | 30 | Medium | ✅ | [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Solution](trees/102-binary-tree-level-order-traversal/main.py) |
-| 31 | Medium | | [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Solution](trees/98-validate-binary-search-tree/main.py) |
-| 32 | Medium | | [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Solution](trees/230-kth-smallest-element-in-a-bst/main.py) |
-| 33 | Medium | | [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Solution](trees/105-construct-binary-tree-from-preorder-and-inorder-traversal/main.py) |
+| 31 | Medium | ✅ | [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Solution](trees/98-validate-binary-search-tree/main.py) |
+| 32 | Medium | ✅ | [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Solution](trees/230-kth-smallest-element-in-a-bst/main.py) |
+| 33 | Medium | ✅ | [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Solution](trees/105-construct-binary-tree-from-preorder-and-inorder-traversal/main.py) |
 | 34 | Hard | | [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Solution](trees/124-binary-tree-maximum-path-sum/main.py) |
 | 35 | Hard | | [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Solution](trees/297-serialize-and-deserialize-binary-tree/main.py) |
 
@@ -86,8 +86,8 @@ Progress Statistics
 
 | ID | Level | Done | Problem | Solution |
 |:--:|:--:|:--:|:--|:--|
-| 36 | Medium | | [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Solution](tries/208-implement-trie-prefix-tree/main.py) |
-| 37 | Medium | | [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | [Solution](tries/211-design-add-and-search-words-data-structure/main.py) |
+| 36 | Medium | ✅ | [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Solution](tries/208-implement-trie-prefix-tree/main.py) |
+| 37 | Medium | ✅ | [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | [Solution](tries/211-design-add-and-search-words-data-structure/main.py) |
 | 38 | Hard | | [212. Word Search II](https://leetcode.com/problems/word-search-ii/) | [Solution](tries/212-word-search-ii/main.py) |
 
 ## Heap & Priority Queue
@@ -100,15 +100,15 @@ Progress Statistics
 
 | ID | Level | Done | Problem | Solution |
 |:--:|:--:|:--:|:--|:--|
-| 40 | Medium | | [39. Combination Sum](https://leetcode.com/problems/combination-sum/) | [Solution](backtracking/39-combination-sum/main.py) |
-| 41 | Medium | | [79. Word Search](https://leetcode.com/problems/word-search/) | [Solution](backtracking/79-word-search/main.py) |
+| 40 | Medium | ✅ | [39. Combination Sum](https://leetcode.com/problems/combination-sum/) | [Solution](backtracking/39-combination-sum/main.py) |
+| 41 | Medium | ✅ | [79. Word Search](https://leetcode.com/problems/word-search/) | [Solution](backtracking/79-word-search/main.py) |
 
 ## Graphs
 
 | ID | Level | Done | Problem | Solution |
 |:--:|:--:|:--:|:--|:--|
-| 42 | Medium | | [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Solution](graphs/200-number-of-islands/main.py) |
-| 43 | Medium | | [133. Clone Graph](https://leetcode.com/problems/clone-graph/) | [Solution](graphs/133-clone-graph/main.py) |
+| 42 | Medium | ✅ | [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Solution](graphs/200-number-of-islands/main.py) |
+| 43 | Medium | ✅ | [133. Clone Graph](https://leetcode.com/problems/clone-graph/) | [Solution](graphs/133-clone-graph/main.py) |
 | 44 | Medium | | [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) | [Solution](graphs/417-pacific-atlantic-water-flow/main.py) |
 | 45 | Medium | | [207. Course Schedule](https://leetcode.com/problems/course-schedule/) | [Solution](graphs/207-course-schedule/main.py) |
 | 46 | Medium | | [323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | [Solution](graphs/323-number-of-connected-components/main.py) |
