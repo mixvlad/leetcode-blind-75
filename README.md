@@ -109,10 +109,10 @@ Progress Statistics
 |:--:|:--:|:--:|:--|:--|
 | 42 | Medium | ✅ | [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Solution](graphs/200-number-of-islands/main.py) |
 | 43 | Medium | ✅ | [133. Clone Graph](https://leetcode.com/problems/clone-graph/) | [Solution](graphs/133-clone-graph/main.py) |
-| 44 | Medium | | [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) | [Solution](graphs/417-pacific-atlantic-water-flow/main.py) |
-| 45 | Medium | | [207. Course Schedule](https://leetcode.com/problems/course-schedule/) | [Solution](graphs/207-course-schedule/main.py) |
-| 46 | Medium | | [323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | [Solution](graphs/323-number-of-connected-components/main.py) |
-| 47 | Medium | | [261. Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) | [Solution](graphs/261-graph-valid-tree/main.py) |
+| 44 | Medium | ✅ | [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) | [Solution](graphs/417-pacific-atlantic-water-flow/main.py) |
+| 45 | Medium | ✅ | [207. Course Schedule](https://leetcode.com/problems/course-schedule/) | [Solution](graphs/207-course-schedule/main.py) |
+| 46 | Medium | ✅ | [323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | [Solution](graphs/323-number-of-connected-components/main.py) |
+| 47 | Medium | ✅ | [261. Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) | [Solution](graphs/261-graph-valid-tree/main.py) |
 
 ## Advanced Graphs
 
@@ -125,22 +125,22 @@ Progress Statistics
 | ID | Level | Done | Problem | Solution |
 |:--:|:--:|:--:|:--|:--|
 | 49 | Easy | ✅ | [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Solution](dp-1d/70-climbing-stairs/main.py) |
-| 50 | Medium | | [198. House Robber](https://leetcode.com/problems/house-robber/) | [Solution](dp-1d/198-house-robber/main.py) |
-| 51 | Medium | | [213. House Robber II](https://leetcode.com/problems/house-robber-ii/) | [Solution](dp-1d/213-house-robber-ii/main.py) |
-| 52 | Medium | | [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Solution](dp-1d/5-longest-palindromic-substring/main.py) |
-| 53 | Medium | | [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | [Solution](dp-1d/647-palindromic-substrings/main.py) |
-| 54 | Medium | | [91. Decode Ways](https://leetcode.com/problems/decode-ways/) | [Solution](dp-1d/91-decode-ways/main.py) |
-| 55 | Medium | | [322. Coin Change](https://leetcode.com/problems/coin-change/) | [Solution](dp-1d/322-coin-change/main.py) |
-| 56 | Medium | | [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | [Solution](dp-1d/152-maximum-product-subarray/main.py) |
-| 57 | Medium | | [139. Word Break](https://leetcode.com/problems/word-break/) | [Solution](dp-1d/139-word-break/main.py) |
-| 58 | Medium | | [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [Solution](dp-1d/300-longest-increasing-subsequence/main.py) |
+| 50 | Medium | ✅ | [198. House Robber](https://leetcode.com/problems/house-robber/) | [Solution](dp-1d/198-house-robber/main.py) |
+| 51 | Medium | ✅ | [213. House Robber II](https://leetcode.com/problems/house-robber-ii/) | [Solution](dp-1d/213-house-robber-ii/main.py) |
+| 52 | Medium | ✅ | [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Solution](dp-1d/5-longest-palindromic-substring/main.py) |
+| 53 | Medium | ✅ | [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | [Solution](dp-1d/647-palindromic-substrings/main.py) |
+| 54 | Medium | ✅ | [91. Decode Ways](https://leetcode.com/problems/decode-ways/) | [Solution](dp-1d/91-decode-ways/main.py) |
+| 55 | Medium | ✅ | [322. Coin Change](https://leetcode.com/problems/coin-change/) | [Solution](dp-1d/322-coin-change/main.py) |
+| 56 | Medium | ✅ | [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | [Solution](dp-1d/152-maximum-product-subarray/main.py) |
+| 57 | Medium | ✅ | [139. Word Break](https://leetcode.com/problems/word-break/) | [Solution](dp-1d/139-word-break/main.py) |
+| 58 | Medium | ✅ | [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [Solution](dp-1d/300-longest-increasing-subsequence/main.py) |
 
 ## 2-D Dynamic Programming
 
 | ID | Level | Done | Problem | Solution |
 |:--:|:--:|:--:|:--|:--|
-| 59 | Medium | | [62. Unique Paths](https://leetcode.com/problems/unique-paths/) | [Solution](dp-2d/62-unique-paths/main.py) |
-| 60 | Medium | | [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [Solution](dp-2d/1143-longest-common-subsequence/main.py) |
+| 59 | Medium | ✅ | [62. Unique Paths](https://leetcode.com/problems/unique-paths/) | [Solution](dp-2d/62-unique-paths/main.py) |
+| 60 | Medium | ✅ | [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [Solution](dp-2d/1143-longest-common-subsequence/main.py) |
 
 ## Greedy
 
