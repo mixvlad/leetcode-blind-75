@@ -7,8 +7,8 @@ Progress Statistics
 -------------------
 * Easy: 19 / 19 solved (100.0 %)
 * Medium: 49 / 49 solved (100.0 %)
-* Hard: 0 / 7 solved (0.0 %)
-* Total: 68 / 75 solved (90.7 %)
+* Hard: 7 / 7 solved (100.0 %)
+* Total: 75 / 75 solved (100.0 %)
 
 ---
 
@@ -94,7 +94,7 @@ Progress Statistics
 
 | ID | Level | Done | Problem | Solution |
 |:--:|:--:|:--:|:--|:--|
-| 39 | Hard | | [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [Solution](heap-priority-queue/295-find-median-from-data-stream/main.py) |
+| 39 | Hard | ✅ | [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [Solution](heap-priority-queue/295-find-median-from-data-stream/main.py) |
 
 ## Backtracking
 
@@ -118,7 +118,7 @@ Progress Statistics
 
 | ID | Level | Done | Problem | Solution |
 |:--:|:--:|:--:|:--|:--|
-| 48 | Hard | | [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | [Solution](advanced-graphs/269-alien-dictionary/main.py) |
+| 48 | Hard | ✅ | [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | [Solution](advanced-graphs/269-alien-dictionary/main.py) |
 
 ## 1-D Dynamic Programming
 
