@@ -1,8 +1,48 @@
 from typing import List
 
 def spiral_order(matrix: List[List[int]]) -> List[int]:
-    # TODO: Implement your solution here
-    pass
+    """
+    Traverse the matrix in spiral order starting from top-left corner.
+    
+    Args:
+        matrix: 2D list of integers
+        
+    Returns:
+        List of integers in spiral order
+    """
+    if not matrix or not matrix[0]:
+        return []
+        
+    result = []
+    top = 0
+    bottom = len(matrix) - 1
+    left = 0
+    right = len(matrix[0]) - 1
+    
+    while top <= bottom and left <= right:
+        # Traverse right
+        for i in range(left, right + 1):
+            result.append(matrix[top][i])
+        top += 1
+        
+        # Traverse down
+        for i in range(top, bottom + 1):
+            result.append(matrix[i][right])
+        right -= 1
+        
+        # Traverse left
+        if top <= bottom:
+            for i in range(right, left - 1, -1):
+                result.append(matrix[bottom][i])
+            bottom -= 1
+        
+        # Traverse up
+        if left <= right:
+            for i in range(bottom, top - 1, -1):
+                result.append(matrix[i][left])
+            left += 1
+            
+    return result
 
 def main():
     test_cases = [

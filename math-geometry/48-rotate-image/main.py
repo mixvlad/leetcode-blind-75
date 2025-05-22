@@ -1,8 +1,33 @@
 from typing import List
 
 def rotate(matrix: List[List[int]]) -> None:
-    # TODO: Implement your solution here
-    pass
+    """
+    Rotate the matrix 90 degrees clockwise in-place.
+    Each element is moved directly to its final position.
+    
+    Args:
+        matrix: A square matrix of integers
+    """
+    n = len(matrix)
+    
+    # For each layer (outer to inner)
+    for layer in range(n // 2):
+        # For each element in the current layer
+        for i in range(layer, n - layer - 1):
+            # Save top-left element
+            temp = matrix[layer][i]
+            
+            # Move bottom-left to top-left
+            matrix[layer][i] = matrix[n - 1 - i][layer]
+            
+            # Move bottom-right to bottom-left
+            matrix[n - 1 - i][layer] = matrix[n - 1 - layer][n - 1 - i]
+            
+            # Move top-right to bottom-right
+            matrix[n - 1 - layer][n - 1 - i] = matrix[i][n - 1 - layer]
+            
+            # Move saved top-left to top-right
+            matrix[i][n - 1 - layer] = temp
 
 def main():
     test_cases = [

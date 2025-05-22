@@ -1,8 +1,34 @@
 from typing import List
 
 def erase_overlap_intervals(intervals: List[List[int]]) -> int:
-    # TODO: Implement your solution here
-    pass
+    """
+    Find the minimum number of intervals to remove to make all intervals non-overlapping.
+    
+    Args:
+        intervals: List of intervals where each interval is [start, end]
+        
+    Returns:
+        int: Minimum number of intervals to remove
+    """
+    if not intervals:
+        return 0
+        
+    # Sort intervals by end time
+    intervals.sort(key=lambda x: x[1])
+    
+    # Keep track of the end of the last selected interval
+    last_end = intervals[0][1]
+    count = 1  # Count of non-overlapping intervals
+    
+    # Iterate through remaining intervals
+    for start, end in intervals[1:]:
+        # If current interval starts after or at the end of last selected interval
+        if start >= last_end:
+            count += 1
+            last_end = end
+            
+    # Return number of intervals to remove
+    return len(intervals) - count
 
 def main():
     test_cases = [

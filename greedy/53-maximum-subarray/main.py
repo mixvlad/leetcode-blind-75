@@ -1,8 +1,23 @@
 from typing import List
 
 def max_sub_array(nums: List[int]) -> int:
-    # TODO: Implement your solution here
-    pass
+    """
+    Find the maximum sum of a contiguous subarray using optimized Kadane's algorithm.
+    
+    Args:
+        nums: List of integers
+        
+    Returns:
+        Maximum sum of a contiguous subarray
+    """
+    current_sum = max_sum = nums[0]
+    
+    for num in nums[1:]:
+        current_sum = max(num, current_sum + num)
+        if current_sum > max_sum:
+            max_sum = current_sum
+            
+    return max_sum
 
 def main():
     test_cases = [

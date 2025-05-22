@@ -6,9 +6,9 @@ This repository contains my solutions to the LeetCode Blind 75 problems, organiz
 Progress Statistics
 -------------------
 * Easy: 19 / 19 solved (100.0 %)
-* Medium: 12 / 49 solved (24.5 %)
+* Medium: 49 / 49 solved (100.0 %)
 * Hard: 0 / 7 solved (0.0 %)
-* Total: 31 / 75 solved (41.3 %)
+* Total: 68 / 75 solved (90.7 %)
 
 ---
 
@@ -146,27 +146,27 @@ Progress Statistics
 
 | ID | Level | Done | Problem | Solution |
 |:--:|:--:|:--:|:--|:--|
-| 61 | Medium | | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Solution](greedy/53-maximum-subarray/main.py) |
-| 62 | Medium | | [55. Jump Game](https://leetcode.com/problems/jump-game/) | [Solution](greedy/55-jump-game/main.py) |
+| 61 | Medium | ✅ | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Solution](greey/53-maximum-subarray/main.py) |
+| 62 | Medium | ✅ | [55. Jump Game](https://leetcode.com/problems/jump-game/) | [Solution](greedy/55-jump-game/main.py) |
 
 ## Intervals
 
 | ID | Level | Done | Problem | Solution |
 |:--:|:--:|:--:|:--|:--|
 | 63 | Easy | ✅ | [252. Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) | [Solution](intervals/252-meeting-rooms/main.py) |
-| 64 | Medium | | [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | [Solution](intervals/253-meeting-rooms-ii/main.py) |
-| 65 | Medium | | [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | [Solution](intervals/57-insert-interval/main.py) |
-| 66 | Medium | | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Solution](intervals/56-merge-intervals/main.py) |
-| 67 | Medium | | [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | [Solution](intervals/435-non-overlapping-intervals/main.py) |
+| 64 | Medium | ✅ | [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | [Solution](intervals/253-meeting-rooms-ii/main.py) |
+| 65 | Medium | ✅ | [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | [Solution](intervals/57-insert-interval/main.py) |
+| 66 | Medium | ✅ | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Solution](intervals/56-merge-intervals/main.py) |
+| 67 | Medium | ✅ | [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | [Solution](intervals/435-non-overlapping-intervals/main.py) |
 
 
 ## Math & Geometry
 
 | ID | Level | Done | Problem | Solution |
 |:--:|:--:|:--:|:--|:--|
-| 68 | Medium | | [48. Rotate Image](https://leetcode.com/problems/rotate-image/) | [Solution](math-geometry/48-rotate-image/main.py) |
-| 69 | Medium | | [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Solution](math-geometry/54-spiral-matrix/main.py) |
-| 70 | Medium | | [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | [Solution](math-geometry/73-set-matrix-zeroes/main.py) |
+| 68 | Medium | ✅ | [48. Rotate Image](https://leetcode.com/problems/rotate-image/) | [Solution](math-geometry/48-rotate-image/main.py) |
+| 69 | Medium | ✅ | [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Solution](math-geometry/54-spiral-matrix/main.py) |
+| 70 | Medium | ✅ | [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | [Solution](math-geometry/73-set-matrix-zeroes/main.py) |
 
 ## Bit Manipulation
 
