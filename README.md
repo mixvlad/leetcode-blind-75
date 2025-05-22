@@ -40,7 +40,7 @@ Progress Statistics
 | 12 | Easy | ✅ | [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Solution](sliding-window/121-best-time-to-buy-and-sell-stock/main.py) |
 | 13 | Medium | ✅ | [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Solution](sliding-window/3-longest-substring-without-repeating-characters/main.py) |
 | 14 | Medium | ✅ | [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Solution](sliding-window/424-longest-repeating-character-replacement/main.py) |
-| 15 | Hard | | [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [Solution](sliding-window/76-minimum-window-substring/main.py) |
+| 15 | Hard | ✅ | [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [Solution](sliding-window/76-minimum-window-substring/main.py) |
 
 ## Stack
 
@@ -64,7 +64,7 @@ Progress Statistics
 | 21 | Easy | ✅ | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Solution](linked-list/141-linked-list-cycle/main.py) |
 | 22 | Medium | ✅ | [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Solution](linked-list/19-remove-nth-node-from-end-of-list/main.py) |
 | 23 | Medium | ✅ | [143. Reorder List](https://leetcode.com/problems/reorder-list/) | [Solution](linked-list/143-reorder-list/main.py) |
-| 24 | Hard | | [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [Solution](linked-list/23-merge-k-sorted-lists/main.py) |
+| 24 | Hard | ✅ | [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [Solution](linked-list/23-merge-k-sorted-lists/main.py) |
 
 ## Trees
 
@@ -79,8 +79,8 @@ Progress Statistics
 | 31 | Medium | ✅ | [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Solution](trees/98-validate-binary-search-tree/main.py) |
 | 32 | Medium | ✅ | [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Solution](trees/230-kth-smallest-element-in-a-bst/main.py) |
 | 33 | Medium | ✅ | [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Solution](trees/105-construct-binary-tree-from-preorder-and-inorder-traversal/main.py) |
-| 34 | Hard | | [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Solution](trees/124-binary-tree-maximum-path-sum/main.py) |
-| 35 | Hard | | [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Solution](trees/297-serialize-and-deserialize-binary-tree/main.py) |
+| 34 | Hard | ✅ | [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Solution](trees/124-binary-tree-maximum-path-sum/main.py) |
+| 35 | Hard | ✅ | [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Solution](trees/297-serialize-and-deserialize-binary-tree/main.py) |
 
 ## Tries
 
@@ -88,7 +88,7 @@ Progress Statistics
 |:--:|:--:|:--:|:--|:--|
 | 36 | Medium | ✅ | [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Solution](tries/208-implement-trie-prefix-tree/main.py) |
 | 37 | Medium | ✅ | [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | [Solution](tries/211-design-add-and-search-words-data-structure/main.py) |
-| 38 | Hard | | [212. Word Search II](https://leetcode.com/problems/word-search-ii/) | [Solution](tries/212-word-search-ii/main.py) |
+| 38 | Hard | ✅ | [212. Word Search II](https://leetcode.com/problems/word-search-ii/) | [Solution](tries/212-word-search-ii/main.py) |
 
 ## Heap & Priority Queue
 
